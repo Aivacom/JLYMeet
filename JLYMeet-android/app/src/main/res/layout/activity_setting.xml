@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mediaroom.ui.SettingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@mipmap/icon_back"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#FF333333"
+            android:textSize="16sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_margin="@dimen/dp15"
+        android:background="@drawable/bg_setting"
+        android:paddingLeft="@dimen/dp15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center"
+            android:text="UID"
+            android:textColor="@color/black95"
+            android:textSize="@dimen/sp15" />
+
+        <EditText
+            android:id="@+id/edt_setting_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp45"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@null"
+            android:digits="1234567890"
+            android:drawablePadding="@dimen/dp4"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="phone|number"
+            android:maxLength="6"
+            android:paddingLeft="@dimen/dp20"
+            android:paddingRight="@dimen/dp15"
+            android:singleLine="true"
+            android:textColor="@color/jly_grey"
+            android:textSize="@dimen/sp15"
+            android:windowSoftInputMode="adjustPan|stateVisible"
+            tools:targetApi="o" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_livetitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_margin="@dimen/dp15"
+        android:background="@drawable/bg_setting"
+        android:paddingLeft="@dimen/dp15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center"
+
+            android:text="开播档位"
+            android:textColor="@color/black95"
+            android:textSize="@dimen/sp15" />
+
+        <TextView
+            android:id="@+id/tv_setting_live"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/ic_more"
+            android:drawablePadding="@dimen/dp4"
+            android:gravity="center"
+            android:paddingRight="@dimen/dp10"
+            android:text="标清"
+            android:textColor="@color/jly_grey"
+            android:textSize="@dimen/sp15" />
+    </RelativeLayout>
+
+</LinearLayout>

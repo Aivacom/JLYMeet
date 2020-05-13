@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediaroom.ui.MyFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/father"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mediaroom.ui.MyThunderPlayerView
+        android:id="@+id/myview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.mediaroom.ui.MyFrameLayout>

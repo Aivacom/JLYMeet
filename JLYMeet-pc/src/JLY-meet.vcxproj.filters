@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MediaManager.cpp" />
+    <ClCompile Include="JLY-meet.cpp" />
+    <ClCompile Include="JLY-meetDlg.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ThunderManager.cpp" />
+    <ClCompile Include="NetHttp\Postman.cpp">
+      <Filter>NetHttp</Filter>
+    </ClCompile>
+    <ClCompile Include="NetHttp\Postoffice.cpp">
+      <Filter>NetHttp</Filter>
+    </ClCompile>
+    <ClCompile Include="NetHttp\Thread.cpp">
+      <Filter>NetHttp</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Log.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Logger.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="msjexhnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MediaManager.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="JLY-meet.h" />
+    <ClInclude Include="JLY-meetDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThunderManager.h" />
+    <ClInclude Include="NetHttp\PostDefine.h">
+      <Filter>NetHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="NetHttp\Postman.h">
+      <Filter>NetHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="NetHttp\Postoffice.h">
+      <Filter>NetHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="NetHttp\Thread.h">
+      <Filter>NetHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\LoggerExt.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="msjexhnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JLY-meet.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\JLY-meet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\JLY-meet.rc2" />
+    <None Include="json\json_internalarray.inl">
+      <Filter>Json</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>Json</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>Json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NetHttp">
+      <UniqueIdentifier>{07d0e948-3e74-4c3a-8c95-1932300f86f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{9c985c70-c076-4f35-bfb4-3809bec6919b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{d2128290-e49c-4b28-84ee-40b64be42462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
