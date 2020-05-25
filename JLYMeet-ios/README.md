@@ -8,7 +8,15 @@ Use ThunderBolt SDK to realize audio and video functions
 
 Overview
 -------------------------------------------------------------
-- This article mainly introduces how to use ThunderBolt iOS version SDK to achieve the same channel audio and video continuous wheat function. Based on this scenario, the implementation steps will be briefly explained.
+This article mainly introduces how to use ThunderBolt iOS version SDK to achieve the same channel audio and video continuous wheat function. Based on this scenario, the implementation steps will be briefly explained.
+
+We provide comprehensive user access documentation so that users can quickly access audio and video capabilities.If you want to know the specific integration method, interface description, and related scenario Demo, you can click the following link to learn:
+
+> Integrate SDK to APP, please click:[SDK integration instructions](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/integration_and_start/integration_and_start_android.html)
+
+> API development manual, please click: [Android API](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/api/Android/v2.7.0/category.html)
+
+> For related Demo download, please click: [SDK and Demo Download](https://docs.aivacom.com/download)
 
 <br />
    
