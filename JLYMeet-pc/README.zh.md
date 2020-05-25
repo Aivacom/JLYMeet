@@ -1,6 +1,6 @@
 ## 使用 ThunderBolt SDK 实现视频连麦功能
 
-*English Version：[english](/README.md)*
+*English Version：[english](README.md)*
 
 ### 概述
 
