@@ -1,6 +1,6 @@
 ## Use ThunderBolt SDK to realize video linking function
 
-*中文版本： [简体中文](/README.zh.md)* 
+*中文版本： [简体中文](README.zh.md)* 
 
 ### Overview
 
