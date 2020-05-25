@@ -4,7 +4,15 @@
 
 ### Overview
 
-- This article mainly introduces how to use ThunderBolt Windows version to realize the function of video linking. First of all, please make sure that ThunderBolt SDK is correctly integrated into your development environment.
+This article mainly introduces how to use ThunderBolt Windows version to realize the function of video linking. First of all, please make sure that ThunderBolt SDK is correctly integrated into your development environment.
+
+We provide comprehensive user access documents to facilitate users to achieve fast access to audio and video capabilities. If you want to know the specific integration methods, interface descriptions, and related scenarios Demo, you can click the following links to understand:
+
+> Integrate SDK to APP, please refer to: [SDK integration method](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/integration_and_start/integration_and_start_windows.html)
+
+> API development manual, please refer to: [IOS API](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/api/Windows/v2.7.0/category.html)
+
+> For related Demo download, please refer to: [SDK & Demo](https://docs.aivacom.com/download)
 
 ### Prepare
 
