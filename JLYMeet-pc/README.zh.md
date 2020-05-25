@@ -4,7 +4,15 @@
 
 ### 概述
 
-- 本文主要介绍如何使用ThunderBolt Windows版本实现视频连麦的功能。首先请确保已将ThunderBolt SDK正确集成到你的开发环境
+本文主要介绍如何使用ThunderBolt Windows版本实现视频连麦的功能。首先请确保已将ThunderBolt SDK正确集成到你的开发环境
+
+我们提供全面的用户接入文档，来方便用户实现音视频能力的快速接入，如果您想了解具体集成方法、接口说明、相关场景Demo，可点击如下链接了解：
+
+> 集成SDK到APP，请参考：[SDK集成方法](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/integration_and_start/integration_and_start_windows.html)
+
+> API开发手册，请访问： [IOS API](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/api/Windows/v2.7.0/category.html)
+
+> 相关Demo下载，请访问：[SDK及Demo下载](https://docs.aivacom.com/download)
 
 ### 准备
 (1) 下载 SDK
