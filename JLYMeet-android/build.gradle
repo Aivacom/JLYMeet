@@ -4,13 +4,6 @@ buildscript {
 
     repositories {
         mavenLocal()
-
-        maven { url "http://repo.yypm.com:8181/nexus/content/groups/public" }
-        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/releases' }
-        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/snapshots' }
-        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/thirdparty' }
-        maven { url "http://repo.yypm.com:8181/nexus/content/groups/public" }
-
         maven { url "http://nexus.sunclouds.com:8081/nexus/content/groups/public/" }
 
         google()
@@ -27,13 +20,6 @@ buildscript {
 allprojects {
     repositories {
         mavenLocal()
-
-        maven { url "http://repo.yypm.com:8181/nexus/content/groups/public" }
-        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/releases' }
-        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/snapshots' }
-        maven { url 'http://repo.yypm.com:8181/nexus/content/repositories/thirdparty' }
-        maven { url "http://repo.yypm.com:8181/nexus/content/groups/public" }
-
         maven { url "http://nexus.sunclouds.com:8081/nexus/content/groups/public/" }
 
         google()
