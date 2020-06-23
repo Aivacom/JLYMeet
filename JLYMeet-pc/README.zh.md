@@ -12,7 +12,7 @@
 
 > API开发手册，请访问： [IOS API](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/api/Windows/v2.7.0/category.html)
 
-> 相关Demo下载，请访问：[SDK及Demo下载](https://docs.aivacom.com/download)
+> 相关Demo下载，请访问：[Demo下载](http://resource.sunclouds.com/JLYMeet_Windows_2.8.0.zip)
 
 ### 准备
 (1) 下载 SDK
