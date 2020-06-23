@@ -12,7 +12,7 @@ We provide comprehensive user access documents to facilitate users to achieve fa
 
 > API development manual, please refer to: [IOS API](https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/api/Windows/v2.7.0/category.html)
 
-> For related Demo download, please refer to: [SDK & Demo](https://docs.aivacom.com/download)
+> For related Demo download, please refer to: [Demo](http://resource.sunclouds.com/JLYMeet_Windows_2.8.0.zip)
 
 ### Prepare
 
